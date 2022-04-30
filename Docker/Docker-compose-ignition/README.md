@@ -3,13 +3,29 @@
 </p>
 
 <br/>
+<br/>
 
-# DOCKER COMPOSE FOR IGNITION FORTRESS
+# DOCKER-COMPOSE-IGNITION SOURCE INSTALLATION
+
+<br/>
+
+[SSIM-Sim](https://norlab.youtrack.cloud/issues?q=project:%20%7B%F0%9D%94%96%20SNOW-sim%7D) (Youtrack)&nbsp; • &nbsp;[SNOW](https://norlab.ulaval.ca/research/snow/) (WebSite)&nbsp; • &nbsp;[isabelleysseric](https://hub.docker.com/u/isabelleysseric) (Docker Hub)&nbsp; • &nbsp;[SNOW-sim](https://github.com/norlab-ulaval/SNOW-sim_internship_H22) (GitHub)&nbsp; • &nbsp;[Wiki SNOW-sim](https://github.com/isabelleysseric/SNOW-sim_internship_H22/wiki) (Wiki) 
+
+<br/>
+
+*Author: Isabelle Eysseric*
 
 <br/>
 <br/>
 
-## USAGE
+## Introduction
+
+THis is Docker Compose for Gazebo Ignition Fortress.  
+
+<br/>
+<br/>
+
+## Instructions
 
 Pre-run (local)
 
@@ -38,7 +54,7 @@ $ docker-compose -f <local or remote>/<intel or nvidia>/docker-compose.yml down 
 <br/>
 <br/>
 
-## EXAMPLE
+## Example
 
 How to run it locally and with Intel graphics.
 
