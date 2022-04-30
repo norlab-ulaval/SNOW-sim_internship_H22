@@ -1,5 +1,6 @@
 ## Template files for Gazebo Ignition in SDF format
 
+<br/>
 
 **Template SDF for World**:  
 
