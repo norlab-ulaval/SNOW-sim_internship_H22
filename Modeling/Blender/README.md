@@ -8,9 +8,10 @@
 ## SNOW-SIM PROJECT
 
 *Author: Isabelle Eysseric (internship H22)*
+
 <br>
 
-### Blender
+## Blender
 <p>Blender is a free software for 3D graphics.</p>
 <p>The different files in this folder can be integrated into different simulators like Gazebo, Gazebo Ignition, Unity and many others. By opening it in Blender, you can modify them as you wish or export them in the 3D format that suits you best.</p>
 <br>
