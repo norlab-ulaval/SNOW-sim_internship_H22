@@ -4,126 +4,72 @@
 
 <br/>
 <br/>
-<br/>
 
-<span style="font-family:Verdana; color:#4FD6F7;font-weight:700;font-size:30px">
-    DOCKER IGNITION SIMULATOR 🐋
-</span>
+## DOCKER IGNITION SIMULATOR 🐋
 
-***
+Project related link:   [SSIM](https://norlab.youtrack.cloud/issues?q=project:%20%7B%F0%9D%94%96%20SNOW-sim%7D) <span style="font-family:Verdana;">(Youtrack)</span>    •   [isabelleysseric](https://hub.docker.com/u/isabelleysseric)  (Docker Hub)   •   [Norlab_SNOW_sim](https://github.com/norlab-ulaval/SNOW-sim_internship_H22) (GitHub) •   [Norlab_SNOW](https://norlab.ulaval.ca/research/snow/)  (WebSite)
 
-<span style="font-family:Verdana; font-size:14px"> </span>
-
-<span style="font-family:Verdana; font-weight:bold;">Project related link</span><span style="font-family:Verdana;">: </span>  [<span style="font-family:Verdana;">SSIM</span>](https://norlab.youtrack.cloud/issues?q=project:%20%7B%F0%9D%94%96%20SNOW-sim%7D) <span style="font-family:Verdana;">(Youtrack)</span>    •   [<span style="font-family:Verdana;">isabelleysseric</span>](https://hub.docker.com/u/isabelleysseric)  <span style="font-family:Verdana;">(Docker Hub)</span>   •   [<span style="font-family:Verdana;">Norlab_SNOW_sim</span>](https://github.com/norlab-ulaval/SNOW-sim_internship_H22)  <span style="font-family:Verdana;">(GitHub)</span>  •   [<span style="font-family:Verdana;">Norlab_SNOW</span>](https://norlab.ulaval.ca/research/snow/)  <span style="font-family:Verdana;">(WebSite)</span>
-
-<span style="font-family:Verdana; font-weight:bold;">Author</span><span style="font-family:Verdana; font-size:14px">: Isabelle Eysseric</span>
+*Author*: Isabelle Eysseric (internship H22)
 
 <br/>
 <br/>
-<br/>
-<br/>
 
-<span style="font-family:Verdana; color:#FC8955;font-weight:700;font-size:20px">
-    INTRODUCTION
-</span>
+## Introduction  
 
-***
+This is a container for [ignition robotics](https://ignitionrobotics.org/home)  version [Fortress](https://ignitionrobotics.org/docs/fortress).  
 
+Here, you can download the Gazebo Ignition (Fortress) image.  
 
-<span style="font-family:Verdana;">This is a container for </span> [<span style="font-family:Verdana;">ignition robotics</span>](https://ignitionrobotics.org/home)  <span style="font-family:Verdana;">version </span> [<span style="font-family:Verdana;">Fortress</span>](https://ignitionrobotics.org/docs/fortress).
-
-<span style="font-family:Verdana;">
-    Here, you can download the Gazebo Ignition (Fortress) image.  
-    <br/> <br/>
-</span>
-
-<span style="font-family:Verdana; font-weight:bold;">Project goal</span><span style="font-family:Verdana;">: Have access to a simulator for doing research on mobile robotic control algorithms subject to adversarial conditions.
-</span>
+*Project goal*: Have access to a simulator for doing research on mobile robotic control algorithms subject to adversarial conditions.  
 
 <br/>
 <br/>
-<br/>
-<br/>
 
-<span style="font-family:Verdana; color:#FC8955;font-weight:700;font-size:20px">
-    SUPPORTS
-</span>
+## Supports
 
-***
+In this folder you have several installation methods (Binary or Source) but also several versions of Ubuntu (18.04 or 20.04) or several versions of Gazebo Ignition (Fortress or others).  
 
-<span style="font-family:Verdana; font-size:14px">
-In this folder you have several installation methods (Binary or Source) but also several versions of Ubuntu (18.04 or 20.04) or several versions of Gazebo Ignition (Fortress or others).
-
-Currently, there is Gazebo Ignition (Fortress) on Ubuntu 20.04 but you have a choice with the installation (Binary or Source).
-</span>
-
-
+Currently, there is Gazebo Ignition (Fortress) on Ubuntu 20.04 but you have a choice with the installation (Binary or Source).  
 
 <br/>
 
 
-<span style="font-family:Verdana; color:#0583D2;font-weight:700;font-size:15px">
-    Plateform 
-</span>
-
-<span style="font-family:Verdana; font-size:14px">
-    <ul "list-style-type: circle;">
-      <li>Ubuntu 20.04 (Focal)</li>
-    </ul>
-</span>
+**Plateform**:  
+* Ubuntu 20.04 (Focal)
 
 <br/>
 
-<span style="font-family:Verdana; color:#0583D2;font-weight:700;font-size:15px">
-    Gazebo Ignition Versions
-</span>
-
-<span style="font-family:Verdana; font-size:14px">
-    <ul "list-style-type: circle;">
-      <li>Fortress</li>
-    </ul>
-</span>
+**Gazebo Ignition Versions**:  
+* Fortress  
 
 <br/>
 
-<span style="font-family:Verdana; color:#0583D2;font-weight:700;font-size:15px">
-    Installations Type
-</span>
-
-<span style="font-family:Verdana; font-size:14px">
-    <ul "list-style-type: circle;">
-      <li>Binary</li>
-      <li>Source</li>
-    </ul>
-</span>
+**Installations Type**:  
+* Binary  
+* Source  
 
 <br/>
 <br/>
 <br/>
 
-<span style="font-family:Verdana; color:#FC8955;font-weight:700;font-size:20px">
-    USAGE
-</span>
+## Instructions
 
-***
-
-
-<span style="font-family:Verdana; font-weight:bold;">Step 1</span><span style="font-family:Verdana;">: Download the folder <code>docker-ignition</code> </span>
+**Step 1**: Download the folder `docker-ignition`
 
 ```shell
 sudo git clone https://github.com/norlab-ulaval/SNOW-sim_internship_H22/tree/main/DOCKER_Ignition.git
 ```
 <br/>
 
-<span style="font-family:Verdana; font-weight:bold;">Step 1</span><span style="font-family:Verdana;">: Extract it on <code>/home/user/</code> </span>
-
+**Step 2**: Extract it on `/home/user/`
 
 ```shell
 unzip docker-ignition.zip
 ```
+
 <br/>
 
-<span style="font-family:Verdana; font-weight:bold;">Step 1</span><span style="font-family:Verdana;">: Build all containers from the folder <code>docker-ignition</code> </span>
+**Step 3**: Build all containers from the folder `docker-ignition`
 
 ```shell
 cd /home/user/docker-ignition/
@@ -132,8 +78,7 @@ make build
 
 <br/>
 
-<span style="font-family:Verdana; font-weight:bold;">Step 1</span><span style="font-family:Verdana;">: Build a specific container, for example here: <code>binary/focal/fortress</code> </span>
-
+**Step 4**: Build a specific container, for example here: `binary/focal/fortress`
 
 ```shell
 cd /home/user/docker-ignition/
