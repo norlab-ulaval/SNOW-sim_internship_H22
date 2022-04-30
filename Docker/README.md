@@ -84,3 +84,120 @@ make build
 cd /home/user/docker-ignition/
 make fortress-focal
 ```
+
+<br/>
+<br/>
+
+## Create an application in Docker
+
+Link: https://www.geeksforgeeks.org/introduction-to-docker/?ref=gcse
+Link: https://jsta.github.io/r-docker-tutorial/04-Dockerhub.html
+
+
+**My Variables**:
+```shell
+<user>: Norlab
+<image name>: python-test
+<image ID>: 8ddf308587b2
+<tag>: latest
+<DockerHub username>: isabelleysseric 
+```
+
+<br/>
+  
+### CREATE A DOCKER CONTAINER
+<br/>
+  
+*Step 1*: Create a folder with 2 files  
+```shell
+gedit /home/<user>/Dockerfile
+gedit /home/<user>/main.py
+```
+
+<br/>
+  
+*Step 2*: Create a Docker image  
+```shell
+docker build -t <image name> .
+```
+
+<br/>
+  
+*Step 3*: Run the Docker image  
+```shell
+docker run <image name>
+```
+
+<br/>
+  
+*Step 4*: See list Docker images  
+```shell
+docker images
+```
+
+<br/>
+<br/>
+
+###   PUSH ON DOCKER HUB
+
+<br/>
+  
+*Step 5*: Login on Hub Docker
+```shell
+docker login
+docker login -u <username>
+focker login -u <username> -p <password>
+```
+
+<br/>
+
+*Step 6*: Create Repository on Hub Docker
+Link: https://hub.docker.com/repositories
+
+<br/>
+
+*Step 6*: Tag your image
+```shell
+docker tag <image ID> <DockerHub username>/<image name>:<tag>
+```
+<br/>
+
+*Step 7*: Push your image to Docker Hub repository
+```shell
+docker push <DockerHub username>/<image name>
+```
+
+<br/>
+<br/>  
+  
+### LOAD/SAVE FROM DOCKER HUB
+
+<br/>
+  
+*Step 8*: Fetch the image from Docker Hub
+```shell
+docker rmi -f <image ID>
+```
+
+<br/>
+  
+*Step 8*: Run the image from Docker Hub
+```shell
+docker run <DockerHub username>/python-test
+```
+
+<br/>
+  
+*Step 9*: Save the Docker image
+```shell
+docker save <image name> > <image name>.tar
+```
+
+<br/>
+  
+*Step 10*: Load the Docker container from the archived taf file
+```shell
+docker load --input <image name>.tar
+```
+
+<br/>
