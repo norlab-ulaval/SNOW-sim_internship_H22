@@ -8,8 +8,11 @@
 ## SNOW-SIM PROJECT
 
 *Author: Isabelle Eysseric (internship H22)*
+
 <br>
 <br>
+
+## Introduction
 
 ### AGX Unity
 <p>AGX Unity is an robotics simulator.</p>
