@@ -1,25 +1,24 @@
 <p align="center">
   <img src="https://norlab.ulaval.ca/images/norlab_acronym_stamp_light.svg" />
-</p>  
+</p>
 
 <br/>
 <br/>
+
+# SNOW-SIM PROJECT: BEST SIMULATOR FOR OFF-ROAD & EXTREME ENVIRONMENTS
+
+<br/>
+
+[SSIM-Sim](https://norlab.youtrack.cloud/issues?q=project:%20%7B%F0%9D%94%96%20SNOW-sim%7D) (Youtrack)&nbsp; • &nbsp;[SNOW](https://norlab.ulaval.ca/research/snow/) (WebSite)&nbsp; • &nbsp;[isabelleysseric](https://hub.docker.com/u/isabelleysseric) (Docker Hub)&nbsp; • &nbsp;[SNOW-sim](https://github.com/norlab-ulaval/SNOW-sim_internship_H22) (GitHub)&nbsp; • &nbsp;[Wiki SNOW-sim](https://github.com/isabelleysseric/SNOW-sim_internship_H22/wiki) (Wiki) 
+
+<br/>
+
+*Author: Isabelle Eysseric*
+
 <br/>
 <br/>
 
-# BEST SIMULATOR
-
-*Project related link*: [SSIM-Sim](https://norlab.youtrack.cloud/issues?q=project:%20%7B%F0%9D%94%96%20SNOW-sim%7D) (Youtrack)    •   [isabelleysseric](https://hub.docker.com/u/isabelleysseric)  (Docker Hub)   •   [SNOW-sim_internship_H22](https://github.com/norlab-ulaval/SNOW-sim_internship_H22)  (GitHub)  •   [SNOW](https://norlab.ulaval.ca/research/snow/)  (WebSite)  
-  
-*Author*: Isabelle Eysseric  
-
-<br/>
-<br/>
-<br/>
-<br/>
-
-
-## INTRODUCTION
+## Introduction
 
 **Project goal**: Have access to a simulator for doing research on mobile robotic control algorithms subject to adversarial conditions.
 
@@ -30,9 +29,10 @@
 <br/>
 
 **The project consisted of 3 phases**:  
-- Phase 1: Research and analysis of simulators in mobile robotics  
-- Phase 2: Tests on the two selected simulators  
-- Phase 3: Deployment of the best simulator  
+
+* Phase 1: Research and analysis of simulators in mobile robotics  
+* Phase 2: Tests on the two selected simulators  
+* Phase 3: Deployment of the best simulator  
   
 Currently with our material conditions and those of the field of mobile robotics, the ideal simulator is Gazebo Ignition (Fortress version).  
   
@@ -40,10 +40,8 @@ In this repository, there are 3 folders, one for the simulator with the models a
   
 <br/>
 <br/>
-<br/>
   
-## STRUCTURE
-  
+## Structure
   
 SNOW-sim_internship_H22-main  
 │  
@@ -159,8 +157,6 @@ SNOW-sim_internship_H22-main
 │  
 └── README.md  
 
-<br/>
-<br/>
 <br/>
 <br/>
   
