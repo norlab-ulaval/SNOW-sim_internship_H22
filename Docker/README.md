@@ -5,11 +5,11 @@
 <br/>
 <br/>
 
-## DOCKER IGNITION SIMULATOR 🐋
+## DOCKER IGNITION SIMULATOR
 
-Project related link:   [SSIM](https://norlab.youtrack.cloud/issues?q=project:%20%7B%F0%9D%94%96%20SNOW-sim%7D) <span style="font-family:Verdana;">(Youtrack)</span>    •   [isabelleysseric](https://hub.docker.com/u/isabelleysseric)  (Docker Hub)   •   [Norlab_SNOW_sim](https://github.com/norlab-ulaval/SNOW-sim_internship_H22) (GitHub) •   [Norlab_SNOW](https://norlab.ulaval.ca/research/snow/)  (WebSite)
+[SSIM-Sim](https://norlab.youtrack.cloud/issues?q=project:%20%7B%F0%9D%94%96%20SNOW-sim%7D) (Youtrack)&nbsp; • &nbsp;[SNOW](https://norlab.ulaval.ca/research/snow/) (WebSite)&nbsp; • &nbsp;[isabelleysseric](https://hub.docker.com/u/isabelleysseric) (Docker Hub)&nbsp; • &nbsp;[SNOW-sim](https://github.com/norlab-ulaval/SNOW-sim_internship_H22) (GitHub)&nbsp; • &nbsp;[Wiki SNOW-sim](https://github.com/isabelleysseric/SNOW-sim_internship_H22/wiki) (Wiki)  
 
-*Author*: Isabelle Eysseric (internship H22)
+*Author*: Isabelle Eysseric (internship H22)  
 
 <br/>
 <br/>
