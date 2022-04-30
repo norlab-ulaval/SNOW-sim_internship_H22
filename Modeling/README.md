@@ -5,9 +5,15 @@
 <br/>
 <br/>
 
-## SNOW-SIM PROJECT
+# MODELING WITH BLENDER
 
-*Author: Isabelle Eysseric (internship H22)*
+<br/>
+
+[SSIM-Sim](https://norlab.youtrack.cloud/issues?q=project:%20%7B%F0%9D%94%96%20SNOW-sim%7D) (Youtrack)&nbsp; • &nbsp;[SNOW](https://norlab.ulaval.ca/research/snow/) (WebSite)&nbsp; • &nbsp;[isabelleysseric](https://hub.docker.com/u/isabelleysseric) (Docker Hub)&nbsp; • &nbsp;[SNOW-sim](https://github.com/norlab-ulaval/SNOW-sim_internship_H22) (GitHub)&nbsp; • &nbsp;[Wiki SNOW-sim](https://github.com/isabelleysseric/SNOW-sim_internship_H22/wiki) (Wiki) 
+
+<br/>
+
+*Author: Isabelle Eysseric*
 
 <br/>
 <br/>
