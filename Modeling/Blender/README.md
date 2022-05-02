@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://norlab.ulaval.ca/images/norlab_acronym_stamp_light.svg" />
+  <img src="https://github.com/norlab-ulaval/SNOW-sim_internship_H22/blob/master/norlab_logo_noir.PNG?raw=true" />
 </p>
 
 <br/>
