@@ -10,7 +10,7 @@
 
 <br/>
 
-[SSIM-Sim](https://norlab.youtrack.cloud/issues?q=project:%20%7B%F0%9D%94%96%20SNOW-sim%7D) (Youtrack)&nbsp; • &nbsp;[SNOW](https://norlab.ulaval.ca/research/snow/) (WebSite)&nbsp; • &nbsp;[isabelleysseric](https://hub.docker.com/u/isabelleysseric) (Docker Hub)&nbsp; • &nbsp;[SNOW-sim](https://github.com/norlab-ulaval/SNOW-sim_internship_H22) (GitHub)&nbsp; • &nbsp;[Wiki SNOW-sim](https://github.com/isabelleysseric/SNOW-sim_internship_H22/wiki) (Wiki) 
+[SSIM-Sim](https://norlab.youtrack.cloud/issues?q=project:%20%7B%F0%9D%94%96%20SNOW-sim%7D) (Youtrack)&nbsp; • &nbsp;[SNOW](https://norlab.ulaval.ca/research/snow/) (WebSite)&nbsp; • &nbsp;[isabelleysseric](https://hub.docker.com/u/isabelleysseric) (Docker Hub)&nbsp; • &nbsp;[SNOW-sim](https://github.com/norlab-ulaval/SNOW-sim_internship_H22) (GitHub)&nbsp; • &nbsp;[Wiki SNOW-sim](https://github.com/norlab-ulaval/SNOW-sim_internship_H22/wiki) (Wiki) 
 
 <br/>
 
@@ -37,7 +37,7 @@
   
 Currently with our material conditions and those of the field of mobile robotics, the ideal simulator is Gazebo Ignition (Fortress version).  
   
-In this repository, there are 3 folders, one for the simulator with the models and the scripts to install it on Ubuntu 20.04 and do tests, one for the docker images to install it from any environment and another with the models built under Blender.  
+In this repository, there are 3 folders, one for the simulator with the models and the scripts to install it on Ubuntu 20.04 and do tests, one for the docker images to install it from any environment, one with the models built under Blender and another for the final report.  
   
 <br/>
 <br/>
@@ -155,6 +155,10 @@ SNOW-sim_internship_H22-main
 │              ├── template_model.sdf  
 │              ├── template_world.sdf  
 │              └── README.md  
+│  
+├── Report  
+|      ├── Final_Report_Simulators.pdf
+│      └── README.md 
 │  
 └── README.md  
 
